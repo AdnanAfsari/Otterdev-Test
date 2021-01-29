@@ -31,13 +31,16 @@ const Banner = () => (
 			}}>
 			<img style={{}} src={pencil} alt="t1" />
 		</div>
-		{/* <div
+		<div
+			className='animate'
 			style={{
-				position: 'absolute'
+				position: 'absolute',
+				top: '10.5rem',
+				left: '41rem',
 			}}>
 			<img style={{}} src={ball} alt="t1" />
 		</div>
-		<div
+		{/* <div
 			style={{
 				position: 'absolute'
 			}}>
