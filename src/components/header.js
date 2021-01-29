@@ -27,14 +27,13 @@ const tabs = [
 ];
 	
 const Header = ({ siteTitle }) => (
-	
   <header>
 			<Navbar collapseOnSelect expand="lg" style={{height: `120px`}}>
 				<Container fluid style={{padding: '0px 80px'}}>
-  			<Navbar.Brand href="#home" style={{marginRight: '110px'}}>GSS</Navbar.Brand>
-  			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  			<Navbar.Collapse id="responsive-navbar-nav" >
-					<Nav className="mr-auto">
+					<Navbar.Brand href="#home" style={{ marginRight: '110px' }}>{ siteTitle}</Navbar.Brand>
+  				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  				<Navbar.Collapse id="responsive-navbar-nav" >
+						<Nav className="mr-auto">
 						{tabs.map((tab) => {
 								const { href, content } = tab;
 								return (
@@ -49,33 +48,32 @@ const Header = ({ siteTitle }) => (
 									{content}</Nav.Link>
 								)
 						})}	
-					</Nav>
-					<Link 
-					style={{
-						background: '#14212A',
-						borderRadius: '33px',
-						padding: '20px 43px 20px 43px', 
-						textDecoration: 'none',
-						fontFamily: 'Roboto',
-						color: '#fff',
-						fontWeight: '800',
-						zIndex: '-1'
-					}}
-					to="/">
-						Consulting Now
-						<span
-							style={{
-							background: '#BF9B30',
-							top: '39px',
-							right: '109px',
-							borderRadius: '90px',
-							position: 'absolute',
-							padding: '30px 37px ',
+						</Nav>
+						<Link 
+						style={{
+							background: '#14212A',
+							borderRadius: '33px',
+							padding: '20px 43px 20px 43px', 
+							textDecoration: 'none',
+							fontFamily: 'Roboto',
+							color: '#fff',
+							fontWeight: '800',
 							zIndex: '-1'
-						}}></span>
+						}}
+						to="/">
+						Consulting Now
+							<span
+								style={{
+								background: '#BF9B30',
+								top: '31px',
+								right: '109px',
+								borderRadius: '90px',
+								position: 'absolute',
+								padding: '30px 37px ',
+								zIndex: '-1'
+							}}></span>
         	</Link>
-				</Navbar.Collapse>
-					
+					</Navbar.Collapse>	
 				</Container>
 			</Navbar>
   </header>
