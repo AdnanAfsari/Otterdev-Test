@@ -29,7 +29,7 @@ const Banner = () => (
 				position: 'absolute',
 				top: '10.1rem',
 			}}>
-			<img style={{}} src={pencil} alt="t1" />
+			<img src={pencil} alt="t1" />
 		</div>
 		<div
 			className='animate'
@@ -38,15 +38,18 @@ const Banner = () => (
 				top: '10.5rem',
 				left: '41rem',
 			}}>
-			<img style={{}} src={ball} alt="t1" />
-		</div>
-		{/* <div
-			style={{
-				position: 'absolute'
-			}}>
-			<img style={{ borderRadius: '9990px' }} src={ruler} alt="t1" />
+			<img src={ball} alt="t1" />
 		</div>
 		<div
+			className='animate'
+			style={{
+				position: 'absolute',
+				left: '49rem',
+				top: '36rem',
+			}}>
+			<img src={ruler} alt="t1" />
+		</div>
+		{/* <div
 			style={{
 				position: 'absolute'
 			}}>
