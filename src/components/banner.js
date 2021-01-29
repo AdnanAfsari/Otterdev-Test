@@ -6,9 +6,6 @@ import ruler from '../images/ruler.png';
 import trophy from '../images/trophy.png';
 import "./banner.css"
 
-
-
-
 	
 const Banner = () => (
 	<section
@@ -21,7 +18,7 @@ const Banner = () => (
 			style={{
 				position: 'relative'
 			}}>
-			<img style={{borderRadius: '9990px'}} src={t1} alt="t1" />
+			<img style={{borderRadius: '1000px'}} src={t1} alt="t1" />
 		</div>
 		<div
 			className='animate'
@@ -29,7 +26,7 @@ const Banner = () => (
 				position: 'absolute',
 				top: '10.1rem',
 			}}>
-			<img src={pencil} alt="t1" />
+			<img src={pencil} alt='pencil' />
 		</div>
 		<div
 			className='animate'
@@ -38,7 +35,7 @@ const Banner = () => (
 				top: '10.5rem',
 				left: '41rem',
 			}}>
-			<img src={ball} alt="t1" />
+			<img src={ball} alt='ball' />
 		</div>
 		<div
 			className='animate'
@@ -47,17 +44,18 @@ const Banner = () => (
 				left: '49rem',
 				top: '36rem',
 			}}>
-			<img src={ruler} alt="t1" />
+			<img src={ruler} alt='ruler' />
 		</div>
-		{/* <div
+		<div
+			className='animate'
 			style={{
-				position: 'absolute'
+				position: 'absolute',
+				top: '35rem',
+				left: '17rem'
 			}}>
-			<img style={{ borderRadius: '9990px' }} src={trophy} alt="t1" />
-		</div> */}
+			<img src={trophy} alt='trophy' />
+		</div>
 	</section>
 )
-
-
 
 export default Banner
