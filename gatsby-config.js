@@ -45,6 +45,13 @@ module.exports = {
         },
         //usePreload: true,
       },
+		},
+		{
+      resolve: `gatsby-source-sanity`,
+      options: {
+        projectId: `8oyxv0zj`,
+        dataset: `production`,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
