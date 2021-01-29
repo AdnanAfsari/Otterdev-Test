@@ -1,0 +1,9 @@
+.animate {
+  animation: nudge 3s linear infinite;
+}
+
+@keyframes nudge {
+  50% {
+    transform: rotate(10deg);
+  }
+}

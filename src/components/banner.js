@@ -4,6 +4,8 @@ import ball from '../images/ball.png';
 import pencil from '../images/pencil.png';
 import ruler from '../images/ruler.png';
 import trophy from '../images/trophy.png';
+import "./banner.css"
+
 
 
 
@@ -22,9 +24,10 @@ const Banner = () => (
 			<img style={{borderRadius: '9990px'}} src={t1} alt="t1" />
 		</div>
 		<div
+			className='animate'
 			style={{
 				position: 'absolute',
-				top: '10.1rem'
+				top: '10.1rem',
 			}}>
 			<img style={{}} src={pencil} alt="t1" />
 		</div>
