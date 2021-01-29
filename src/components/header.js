@@ -14,15 +14,15 @@ const tabs = [
     },
     {
       content: 'High Pressure Deflashing System',
-      href: 'High Pressure Deflashing System',
+      href: '#HighPressureDeflashingSystem',
 		},
 		{
       content: 'Products',
-      href: 'Products',
+      href: '#Products',
 		},
 		{
       content: 'Contact Us',
-      href: 'Contact Us',
+      href: '#Contact Us',
     },
 ];
 	
